@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Add</title>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h1>Добавление сотрудника</h1>
+
+            <form data-th-action="@{/add}" method="post">
+
+                <div class="form-group">
+                    <label for="workerId">workerId</label>
+                    <input type="number" name="workerId" class="form-control" id="workerId" placeholder="Айди">
+                </div>
+
+                <div class="form-group">
+                    <label for="rent">Общая рентабельность</label>
+                    <input type="number" name="rent" class="form-control" id="rent" placeholder="Рентабельность">
+                </div>
+
+                <div class="form-group">
+                    <label for="janRent">Рентабельность за январь</label>
+                    <input type="number" name="janRent" class="form-control" id="janRent" placeholder="Январь">
+                </div>
+
+                <div class="form-group">
+                    <label for="febRent">Рентабельность за февраль</label>
+                    <input type="number" name="febRent" class="form-control" id="febRent" placeholder="Февраль">
+                </div>
+
+                <div class="form-group">
+                    <label for="marRent">Рентабельность за март</label>
+                    <input type="number" name="marRent" class="form-control" id="marRent" placeholder="Март">
+                </div>
+
+                <div class="form-group">
+                    <label for="aprRent">Рентабельность за апрель</label>
+                    <input type="number" name="aprRent" class="form-control" id="aprRent" placeholder="Апрель">
+                </div>
+
+                <div class="form-group">
+                    <label for="mayRent">Рентабельность за май</label>
+                    <input type="number" name="mayRent" class="form-control" id="mayRent" placeholder="Май">
+                </div>
+
+                <div class="form-group">
+                    <label for="juneRent">Рентабельность за июнь</label>
+                    <input type="number" name="juneRent" class="form-control" id="juneRent" placeholder="Июнь">
+                </div>
+
+                <div class="form-group">
+                    <label for="julyRent">Рентабельность за июль</label>
+                    <input type="number" name="julyRent" class="form-control" id="julyRent" placeholder="Июль">
+                </div>
+
+                <div class="form-group">
+                    <label for="augRent">Рентабельность за август</label>
+                    <input type="number" name="augRent" class="form-control" id="augRent" placeholder="Август">
+                </div>
+
+                <div class="form-group">
+                    <label for="sepRent">Рентабельность за сентябрь</label>
+                    <input type="number" name="sepRent" class="form-control" id="sepRent" placeholder="Сентябрь">
+                </div>
+
+                <div class="form-group">
+                    <label for="octRent">Рентабельность за октябрь</label>
+                    <input type="number" name="octRent" class="form-control" id="octRent" placeholder="Октябрь">
+                </div>
+
+                <div class="form-group">
+                    <label for="novRent">Рентабельность за ноябрь</label>
+                    <input type="number" name="novRent" class="form-control" id="novRent" placeholder="Ноябрь">
+                </div>
+
+                <div class="form-group">
+                    <label for="decRent">Рентабельность за декабрь</label>
+                    <input type="number" name="decRent" class="form-control" id="decRent" placeholder="Декабрь">
+                </div>
+                <div class="form-group">
+                    <label for="name">ФИО сотрудника</label>
+                    <input type="text" name="name" class="form-control" id="name" placeholder="ФИО сотрудника">
+                </div>
+
+                <button>Добавить</button>
+            </form>
+
+        </div>
+    </div>
+</div>
+</body>
+</html>
